@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 ease-in-out;
+  }
+  
+  .btn-purple{
+    @apply bg-vibranio-purple text-white hover:bg-vibranio-white hover:text-vibranio-blue;
+  }
+  
+  .btn-white{
+    @apply bg-vibranio-white text-vibranio-blue hover:bg-vibranio-purple hover:text-white;
+  }
+  

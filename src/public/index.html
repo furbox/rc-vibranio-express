@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Asistiendo a tus requerimientos, Recursos Tecnologicos en Vibranio.com.mx"
+    />
+    <title>Bienvenido a Recursos Tecnologicos en Vibranio.com.mx</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "vibranio-purple": "#5267DF",
+              "vibranio-red": "#FA5959",
+              "vibranio-blue": "#242A45",
+              "vibranio-gray": "#9194A2",
+              "vibranio-white": "#f7f7f7",
+            },
+          },
+          fontFamily: {
+            Firasans: ["Fira Sans", "sans-serif"],
+          },
+          container: {
+            center: true,
+            padding: "1rem",
+            screens: {
+              lg: "1124px",
+              xl: "1124px",
+              "2xl": "1124px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-Firasans bg-vibranio-blue">
+    <header>
+      <nav class="container flex items-start py-4 mt-4 sm:mt-12">
+        <div class="py-1">
+          <img
+            height="{250}"
+            width="{250}"
+            src="./assets/logo.jpg"
+            alt="logo"
+          />
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-12 text-vibranio-white uppercase text-xs"
+        >
+          <a
+            target="_blank"
+            href="https://wa.me/529381241834/"
+            class="bg-vibranio-purple text-white rounded-md px-7 py-3"
+          >
+            Whatsapp
+          </a>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#000000"
+              d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
+            ></path>
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+    <section class="relative">
+      <div
+        class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28"
+      >
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2
+            class="text-vibranio-white text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6"
+          >
+            Recursos <br />
+            <span class="font-bold">Tecnológicos</span>
+          </h2>
+          <p class="text-vibranio-gray text-lg text-center lg:text-left mb-6">
+            En Recursos Tecnológicos, ofrecemos una amplia gama de productos
+            tecnológicos de primera y segunda mano
+          </p>
+        </div>
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+            src="./assets/alex-knight-2EJCSULRwC8-unsplash.jpg"
+            alt="Recursos Tecnológicos"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="bg-vibranio-white py-20 mt-20 lg:mt-60">
+      <div id="heading" class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-vibranio-blue">Ventajas</h1>
+        <p class="text-center text-vibranio-gray mt-4">
+          Al comprar en Recursos Tecnológicos, los clientes pueden disfrutar de
+          varias ventajas y beneficios. Aquí tienes algunas de las ventajas de
+          comprar en nuestra empresa:
+        </p>
+      </div>
+      <div id="feature1" class="relative mt-20 lg:mt-24">
+        <div
+          class="container flex flex-col lg:flex-row items-center justify-center gap-x-24"
+        >
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+              src="./assets/kenny-eliason-hF-Vaf9P1vs-unsplash.jpg"
+              alt="Calidad en Recursos Tecnologicos"
+            />
+          </div>
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-vibranio-blue">Productos de calidad</h1>
+            <p
+              class="text-vibranio-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Nos aseguramos de ofrecer productos tecnológicos de primera y
+              segunda mano de alta calidad. Nuestro equipo técnico realiza
+              pruebas exhaustivas en todos los dispositivos antes de ponerlos a
+              la venta, lo que garantiza que los productos cumplan con los
+              estándares de calidad y funcionen de manera óptima.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="feature2" class="relative mt-20 lg:mt-24">
+        <div
+          class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24"
+        >
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+              src="./assets/revendo-ZRkl491pWYo-unsplash.jpg"
+              alt="Opciones de compra en Recursos Tecnologicos"
+            />
+          </div>
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-vibranio-blue">Opciones de compra</h1>
+            <p
+              class="text-vibranio-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Brindamos a nuestros clientes opciones de compra flexibles. Además
+              de productos de primera mano, ofrecemos dispositivos
+              reacondicionados que brindan una opción más económica para
+              aquellos con un presupuesto limitado.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="feature3" class="relative mt-20 lg:mt-24">
+        <div
+          class="container flex flex-col lg:flex-row items-center justify-center gap-x-24"
+        >
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+              src="./assets/austin-distel-21GWwco-JBQ-unsplash.jpg"
+              alt="Garantia y servicio al cliente en Recursos Tecnologicos"
+            />
+          </div>
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-vibranio-blue">
+              Garantía y servicio al cliente
+            </h1>
+            <p
+              class="text-vibranio-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Respaldamos nuestros productos con garantías adecuadas para cubrir
+              cualquier posible problema técnico. Además, nuestro equipo de
+              servicio al cliente capacitado y amable está disponible para
+              responder consultas, brindar asesoramiento técnico y brindar
+              soporte postventa, asegurando una experiencia de compra
+              satisfactoria.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="feature4" class="relative mt-20 lg:mt-24">
+        <div
+          class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24"
+        >
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full"
+              src="./assets/sebastian-herrmann-NbtIDoFKGO8-unsplash.jpg"
+              alt="Satisfacción del cliente en Recursos Tecnologicos"
+            />
+          </div>
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-vibranio-blue">
+              Satisfacción del cliente
+            </h1>
+            <p
+              class="text-vibranio-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Nos esforzamos por lograr la satisfacción del cliente en cada
+              interacción. Buscamos superar las expectativas de nuestros
+              clientes al brindarles productos de calidad, precios competitivos
+              y un servicio al cliente excepcional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="text-center text-6xl mt-10 mb-10 text-vibranio-white">
+        Productos
+      </h1>
+      <div class="flex">
+        <div class="w-full" id="slider-container">
+          <ul id="slider" class="flex flex-col sm:flex-row w-full">
+            <li class="p-5">
+              <div class="border bg-vibranio-white rounded-lg p-5 h-full">
+                <img
+                  class="h-50 w-full object-cover rounded-md"
+                  src="./assets/imac-001.jpg"
+                  alt="imac-001 venta"
+                />
+                <h2 class="mt-2 text-2xl font-bold text-vibranio-blue">
+                  Venta Imac 2010
+                </h2>
+                <p class="mt-2 mb-4 text-vibranio-gray">
+                  Apple iMac 21" 2010 MC509LL/A 4GB Core i3 3.2GHz 1TB HDD
+                </p>
+                <a
+                  target="_blank"
+                  href="https://wa.me/529381241834/"
+                  class="pt-20 btn btn-purple"
+                >
+                  Whatsapp
+                </a>
+              </div>
+            </li>
+            <li class="p-5">
+              <div class="border bg-vibranio-white rounded-lg p-5 h-full">
+                <img
+                  class="h-50 w-full object-cover rounded-md"
+                  src="./assets/imac-002.jpg"
+                  alt="imac-002 venta"
+                />
+                <h2 class="mt-2 text-2xl font-bold text-vibranio-blue">
+                  Venta Imac 2010
+                </h2>
+                <p class="mt-2 mb-4 text-vibranio-gray">
+                  Apple iMac 21" 2010 MC509LL/A 4GB Core i3 3.2GHz 1TB HDD
+                </p>
+                <a
+                  target="_blank"
+                  href="https://wa.me/529381241834/"
+                  class="pt-20 btn btn-purple"
+                >
+                  Whatsapp
+                </a>
+              </div>
+            </li>
+            <li class="p-5">
+              <div class="border bg-vibranio-white rounded-lg p-5 h-full">
+                <img
+                  class="h-50 w-full object-cover rounded-md"
+                  src="./assets/imac-003.jpg"
+                  alt="imac-003 venta"
+                />
+                <h2 class="mt-2 text-2xl font-bold text-vibranio-blue">
+                  Venta Imac 2010
+                </h2>
+                <p class="mt-2 mb-4 text-vibranio-gray">
+                  Apple iMac 21" 2010 MC509LL/A 4GB Core i3 3.2GHz 1TB HDD
+                </p>
+                <a
+                  target="_blank"
+                  href="https://wa.me/529381241834/"
+                  class="pt-20 btn btn-purple"
+                >
+                  Whatsapp
+                </a>
+              </div>
+            </li>
+            <li class="p-5">
+              <div class="border bg-vibranio-white rounded-lg p-5 h-full">
+                <img
+                  class="h-50 w-full object-cover rounded-md"
+                  src="./assets/imac-004.jpg"
+                  alt="imac-004 venta"
+                />
+                <h2 class="mt-2 text-2xl font-bold text-vibranio-blue">
+                  Venta Imac 2010
+                </h2>
+                <p class="mt-2 mb-4 text-vibranio-gray">
+                  Apple iMac 21" 2010 MC509LL/A 4GB Core i3 3.2GHz 1TB HDD
+                </p>
+                <a
+                  target="_blank"
+                  href="https://wa.me/529381241834/"
+                  class="pt-20 btn btn-purple"
+                >
+                  Whatsapp
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <div class="fixed bottom-4 right-4">
+        <a target="_blank" href="https://wa.me/529381241834/" class="font-bold py-2 px-4 rounded-full shadow-lg cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 256 258"><defs><linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%"><stop offset="0%" stop-color="#1FAF38"></stop><stop offset="100%" stop-color="#60D669"></stop></linearGradient><linearGradient id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%"><stop offset="0%" stop-color="#F9F9F9"></stop><stop offset="100%" stop-color="#FFF"></stop></linearGradient></defs><path fill="url(#logosWhatsappIcon0)" d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a122.994 122.994 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004"></path><path fill="url(#logosWhatsappIcon1)" d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416Zm40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513l10.706-39.082Z"></path><path fill="#FFF" d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561c0 15.67 11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716c-3.186-1.593-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64"></path></svg>
+        </a>
+      </div>
+
+    <footer id="footer" class="bg-slate-800 text-white py-8">
+      <div class="container flex flex-col md:flex-row items-center">
+        <div
+          class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12"
+        >
+          <img
+            width="{250}"
+            height="{250}"
+            src="./assets/logo.jpg"
+            alt="logo Recursos Tecnologicos"
+          />
+          <ul class="flex flex-wrap text-white uppercase gap-12 text-xs">
+            <a
+              target="_blank"
+              href="https://wa.me/529381241834/"
+              class="bg-vibranio-purple text-white rounded-md px-7 py-3"
+            >
+              Whatsapp
+            </a>
+          </ul>
+        </div>
+        <div class="flex flex-wrap gap-10 mt-12 md:mt-0">
+          <li class="list-none text-white text-2xl">
+            <a
+              class="cursor-pointer"
+              target="_blank"
+              href="https://www.facebook.com/RecursosTecno"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#fcfcfc"
+                  d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
